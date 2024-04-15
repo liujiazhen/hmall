@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: item-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 10.6.2.5:8848
+      config:
+        file-extension: yaml
+        shared-configs:
+          - shared-jdbc.yaml
+          - shared-log.yaml
+          - shared-swagger.yaml

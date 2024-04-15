@@ -1,0 +1,11 @@
+hm:
+  db:
+    host: 172.17.100.114
+    port: 3306
+    user: root
+    pw: root
+    database: hm-cart
+  swagger:
+    title: 商城购物车接口文档
+    desc: 商城购物车接口文档
+    package: com.hmall.cart.controller

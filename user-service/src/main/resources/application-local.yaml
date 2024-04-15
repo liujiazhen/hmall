@@ -1,0 +1,11 @@
+hm:
+  db:
+    host: 10.6.2.5
+    port: 3306
+    user: root
+    pw: root
+    database: hm-user
+  swagger:
+    title: 用户信息接口文档
+    desc: 用户信息接口文档
+    package: com.hmall.user
